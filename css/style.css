@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&subset=latin-ext,vietnamese');
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+
+.b-c1 {
+    background: rgb(255, 187, 0) !important;
+}
+
+.c1 {
+    color: rgb(255, 187, 0) !important;
+}
+
+.fff {
+    color: #fff !important;
+}
+
+
+
+.b-c2 {
+    background: rgb(255, 187, 0)
+}
+
+.black {
+    color: #000;
+}
+
+.b-black {
+    background: #000;
+}
+
+.top-widget {
+    padding: 4px;
+    font-size: 22px;
+    color: #000;
+    font-family: 'Anton', sans-serif;
+}
+
+.header-title {
+    font-family: 'Anton', sans-serif;
+    color: #000;
+    margin-bottom: 33px;
+
+}
+
+.b-b {
+    border-bottom: 4px solid #ffbb00;
+}
+
+.banner-wrap {
+    padding: 50px 110px;
+    color: #fff
+}
+
+.banner-wrap h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+.banner-wrap .btn {
+    padding: 10px 20px;
+    background-color: #ffbb00;
+    color: #000;
+    border-radius: 0;
+    transition: .2s;
+    font-weight: 600;
+}
+
+
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    /* make all photos black and white */
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+
+.bg-1 h3 {
+    color: #fff;
+}
+
+.bg-1 p {
+    font-style: italic;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+.modal-header,
+h4,
+.close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header,
+.modal-body {
+    padding: 40px 50px;
+}
+
+.nav-tabs li a {
+    color: #777;
+}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    border-radius: 0;
+    padding: 19px 0px 14px 0px;
+    border-bottom: 3px solid #ffbb00;
+    margin-bottom: 24px;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    /* font-weight: 600; */
+}
+
+.family-a {
+    font-family: 'Anton', sans-serif;
+}
+
+.glyphicon-chevron-leftt {
+    top: 45%;
+}
+
+.glyphicon-chevron-rightt {
+    top: 45%;
+
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+    text-align: right;
+}
+
+.carousel-caption p {
+    font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 190px;
+        text-align: right;
+    }
+}
+
+#band img {
+    width: 65%;
+}
+
+#band h3 {
+    text-align: left;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.b-black {
+    background-image: url(../img/Category_Banner_Stone.png);
+}
+
+.b2-black {
+    background-image: url(../img/Category_Banner_wood.png);
+}
+
+.b2-black h1,
+.b3-black h1 {
+    color: #000;
+}
+
+.b-black h1,
+p {
+    color: #fff;
+    font-size: 15px;
+}
+
+.b2-black p,
+.b3-black p {
+    font-size: 21px;
+    color: #000;
+}
+
+.b2-black .btn,
+.b3-black .btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #ffbb00;
+    border-radius: 0;
+    transition: .2s;
+    font-weight: 600;
+}
+
+.b3-black {
+    background-image: url(../img/Category_Banner_Vnyl.png);
+}
+
+.carousel-control.left {
+    color: #fff;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9;
+}
+
+.explore {
+    float: right;
+    margin-right: -90px;
+    margin-bottom: 17px;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 19px;
+    font-size: 17px;
+    color: #fb0;
+}
+
+.carousel-control.right {
+    color: #fff;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9;
+}
+
+.nav .active {
+    background: red;
+}
+
+.nav-wrap {
+    background: url(../img/Backdrop.png);
+    padding: 0px 113px;
+}
+
+.logo {
+    width: 93px;
+    margin-top: -24px;
+}
+
+@media only screen and (max-width:800px) {
+    .nav-wrap {
+        background: url(../img/Backdrop.png);
+        padding: 0px 0px;
+    }
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+.navbar-nav li.active a {
+    color: #000 !important;
+    background-color: #ffbb00 !important;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+footer {
+    background: rgb(255, 187, 0);
+    color: #000;
+    padding: 12px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.custom-footer {
+    background: #000;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.custom-footer p {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
