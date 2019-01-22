@@ -1,0 +1,54 @@
+.b-black {
+    background: #000;
+}
+
+.product-wrap {
+    border: 1px solid #ffbb00ba;
+    text-align: center;
+}
+
+.discount-title {
+    padding: 10px;
+}
+
+.customize-wrap button {
+    color: #fff;
+    border: 2px solid #ffbb00ba !important;
+    font-size: 18px;
+    padding: 3px;
+    margin-left: 26px;
+    border-radius: 6px;
+    width: 143px;
+}
+
+.space-gray {
+    background: transparent;
+
+}
+
+.silver {
+    background: #ffbb00ba;
+    color: #000 !important;
+
+}
+
+.texture button {
+    width: 71px;
+    background: transparent;
+    border: none;
+    padding: 0px;
+    border-radius: none;
+    border: none !important;
+    margin-left: 0px;
+
+}
+
+.texture p {
+    color: #ffffff57;
+}
+
+.cus-wrap {
+    background: #1d1d1d;
+    padding: 6px;
+    border: 1px solid #ffbb00ba;
+}
