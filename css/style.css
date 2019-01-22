@@ -38,6 +38,10 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.family {
+    font-family: 'Anton', sans-serif;
+}
+
 .header-title {
     font-family: 'Anton', sans-serif;
     color: #000;
@@ -82,8 +86,8 @@ body {
 }
 
 .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%);
+    /* -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); */
     /* make all photos black and white */
     width: 100%;
     /* Set width to 100% */
@@ -150,14 +154,7 @@ body {
     color: #000;
 }
 
-.modal-header,
-h4,
-.close {
-    background-color: #333;
-    color: #fff !important;
-    text-align: center;
-    font-size: 30px;
-}
+
 
 .modal-header,
 .modal-body {
@@ -205,23 +202,23 @@ h4,
 
 }
 
-.carousel-caption h3 {
+/* .carousel-caption h3 {
     color: #fff !important;
     text-align: right;
-}
+} */
 
-.carousel-caption p {
+/* .carousel-caption p {
     font-size: 25px;
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .carousel-caption {
         right: 20%;
         left: 20%;
         padding-bottom: 190px;
         text-align: right;
     }
-}
+} */
 
 #band img {
     width: 65%;
@@ -243,18 +240,20 @@ h4,
 }
 
 .b2-black h1,
-.b3-black h1 {
+.b3-black h1,
+.b4-black h1 {
     color: #000;
 }
 
 .b-black h1,
 p {
     color: #fff;
-    font-size: 15px;
+
 }
 
 .b2-black p,
-.b3-black p {
+.b3-black p,
+.b4-black p {
     font-size: 21px;
     color: #000;
 }
@@ -319,6 +318,33 @@ p {
         background: url(../img/Backdrop.png);
         padding: 0px 0px;
     }
+
+    .glyphicon-chevron-rightt,
+    .glyphicon-chevron-leftt {
+        display: none !important;
+    }
+
+    .explore {
+        float: right;
+        margin-right: 0px;
+        margin-bottom: 17px;
+        background: transparent;
+        border: 1px solid #fff;
+        padding: 7px 19px;
+        font-size: 17px;
+        color: #fb0;
+
+    }
+
+    .banner-wrap {
+        padding: 50px 34px;
+        color: #fff;
+    }
+}
+
+.glyphicon-chevron-rightt,
+.glyphicon-chevron-leftt {
+    display: block;
 }
 
 .navbar li a,
@@ -393,4 +419,74 @@ textarea {
 .row {
     margin-right: 0px;
     margin-left: 0px;
+}
+
+#myCarousel_t img {
+    width: 33px;
+}
+
+.test-wrap {
+    background: url(../img/Customer_Review_Base.png);
+    padding: 29px 0px;
+}
+
+#myCarousel_t {
+    padding: 46px 2px 46px 2px;
+}
+
+.glyphicon-chevron-left_t {
+    top: 35%;
+    left: 69%;
+}
+
+.glyphicon-chevron-right_t {
+    top: 35%;
+    right: 69%;
+}
+
+.b4-black {
+    background: url(../img/generic_promotional_banner.png);
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #ffbb00;
+}
+
+#myCarousel_t h4 {
+    color: #fff;
+}
+
+.subscribe input {
+    width: 67%;
+    margin: 45px;
+    height: 54px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 46px;
+    padding-left: 10px;
+}
+
+.subscribe button {
+    background: #feb729;
+    border: none;
+    font-size: 22px;
+    padding: 5px 18px;
+    color: #000;
+    border-radius: 37px;
+}
+
+.no-p {
+    padding: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.footer-border {
+    border-bottom: 1px solid #feb72969;
+    margin-bottom: 33px;
 }
