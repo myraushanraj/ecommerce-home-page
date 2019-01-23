@@ -92,11 +92,11 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <a class="left carousel-control hidden" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-leftt" aria-hidden="true"><img src="img/Banner_Arrow_Left.png"></span>
                 <span class="sr-only">previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <a class="right carousel-control hidden" href="#myCarousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-rightt" aria-hidden="true"><img src="img/Banner_Arrow_right.png"></span>
                 <span class="sr-only">Next</span>
             </a>
