@@ -36,7 +36,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#myPage">HOME</a></li>
+                            <li><a href="index.php">HOME</a></li>
                             <li><a href="#band">SHOP-STONE</a></li>
                             <li><a href="#tour">SHOP-WOOD</a></li>
                             <li><a href="#contact">VINYL</a></li>
@@ -51,7 +51,9 @@
                                     <li><a href="#">Media</a></li>
                                 </ul>
                             </li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                            
                         </ul>
                     </div>
                 </div>

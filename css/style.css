@@ -31,19 +31,25 @@ body {
     background: #000;
 }
 
+.main-caption {
+    padding-bottom: 234px;
+    text-align: right;
+    margin-right: -92px;
+}
+
 .top-widget {
     padding: 4px;
     font-size: 22px;
     color: #000;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .family {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .header-title {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     color: #000;
     margin-bottom: 33px;
 
@@ -59,7 +65,7 @@ body {
 }
 
 .banner-wrap h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .banner-wrap .btn {
@@ -184,13 +190,13 @@ body {
     padding: 19px 0px 14px 0px;
     border-bottom: 3px solid #ffbb00;
     margin-bottom: 24px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     color: #fff;
     /* font-weight: 600; */
 }
 
 .family-a {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .glyphicon-chevron-leftt {
@@ -431,7 +437,11 @@ textarea {
     color: #fff;
     padding: 0;
     margin: 0;
-    font-size: 17px;
+    font-size: 15px;
+}
+
+.footer-right {
+    padding-left: 55px;
 }
 
 .row {
@@ -443,13 +453,76 @@ textarea {
     width: 33px;
 }
 
-.test-wrap {
+.testimo-wrap {
     background: url(../img/Customer_Review_Base.png);
-    padding: 29px 0px;
+
+}
+
+.test-image {
+    margin-top: -65px;
 }
 
 #myCarousel_t {
     padding: 46px 2px 46px 2px;
+}
+
+#myCarousel_n {
+    padding: 0px 2px 46px 2px !important;
+}
+
+#myCarousel_n p {
+    font-size: 23px;
+    color: #fff;
+}
+
+.news-indi {
+    bottom: -27px;
+}
+
+.insta li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: gray !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.insta li:active {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(255, 187, 0) !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .insta {
+        bottom: -41px;
+    }
+}
+
+.news_wrap {
+    margin-top: -49px;
+}
+
+.newsletter {
+    padding: 0px !important;
+    background: #000 !important;
+    margin-bottom: 30px;
+}
+
+.features {
+    margin-top: 30px;
 }
 
 .glyphicon-chevron-left_t {
@@ -470,7 +543,7 @@ textarea {
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color: #ffbb00;
+    background-color: #ffbb00 !important;
 }
 
 #myCarousel_t h4 {
@@ -488,15 +561,18 @@ textarea {
 
 .subscribe {
     padding-left: 80px;
+    background: #ffbb00;
+    padding-bottom: 60px;
 }
 
 .subscribe button {
-    background: #feb729;
+    background: #000;
     border: none;
     font-size: 22px;
     padding: 5px 18px;
-    color: #000;
+    color: #fb0;
     border-radius: 37px;
+    margin-left: 21%;
 }
 
 .no-p {

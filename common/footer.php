@@ -19,7 +19,7 @@
 
             </div>
         </div>
-        <div class="col-md-4 text-left">
+        <div class="col-md-4 text-left footer-right">
             <h3 class="c1">CUSTOMER CARE</h3>
             <p>Terms of Service</p>
             <p>Shiping and delivery policy</p>
