@@ -41,15 +41,15 @@ body {
     padding: 4px;
     font-size: 22px;
     color: #000;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 .family {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 .header-title {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Anton', sans-serif;
     color: #000;
     margin-bottom: 33px;
 
@@ -65,7 +65,7 @@ body {
 }
 
 .banner-wrap h1 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 .banner-wrap .btn {
@@ -190,13 +190,13 @@ body {
     padding: 19px 0px 14px 0px;
     border-bottom: 3px solid #ffbb00;
     margin-bottom: 24px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Anton', sans-serif;
     color: #fff;
     /* font-weight: 600; */
 }
 
 .family-a {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 .glyphicon-chevron-leftt {
@@ -305,9 +305,7 @@ p {
     opacity: .9;
 }
 
-.nav .active {
-    background: red;
-}
+
 
 .nav-wrap {
     background: url(../img/Backdrop.png);

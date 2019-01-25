@@ -43,7 +43,7 @@
                         <button class=""><img src="img/texture-dragon.PNG"></button>
                         <button class=""><img src="img/texture-dragon2.PNG"></button>
                         <p class="text-center">Stone</p>
-                        
+                        <br>
                     </div>
             
            </div>
@@ -61,45 +61,94 @@
                 <li class="hidden" data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li class="hidden" data-target="#myCarousel" data-slide-to="1"></li>
                 <li class="hidden" data-target="#myCarousel" data-slide-to="2"></li>
-                <button class="explore">Explore More</button>
+              
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="img/Slider_main-banner01.png" alt="New York" width="1200" height="700">
+                    <img src="img/product-slider.PNG" alt="New York" width="1200" >
                     <div class="carousel-caption">
-                        <h1 class="c1 family-a">IPHONE</h1>
-                        <p class="family-a cap-p">STYLISH & DURABLE SKINS.</p>
+                        
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="img/Slider_main-banner01.png" alt="Chicago" width="1200" height="700">
+                    <img src="img/product-slider.PNG" alt="Chicago" width="1200">
                     <div class="carousel-caption">
-                        <h1 class="c1 family-a">IPHONE</h1>
-                        <p class="family-a cap-p">STYLISH & DURABLE SKINS.</p>
+                       
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="img/Slider_main-banner01.png" alt="Los Angeles" width="1200" height="700">
+                    <img src="img/product-slider.PNG" alt="Los Angeles" width="1200" >
                     <div class="carousel-caption">
-                        <h1 class="c1 family-a">IPHONE</h1>
-                        <p class="family-a cap-p">STYLISH & DURABLE SKINS.</p>
+                        
                     </div>
                 </div>
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control hidden" href="#myCarousel" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-leftt" aria-hidden="true"><img src="img/Banner_Arrow_Left.png"></span>
                 <span class="sr-only">previous</span>
             </a>
-            <a class="right carousel-control hidden" href="#myCarousel" role="button" data-slide="next">
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-rightt" aria-hidden="true"><img src="img/Banner_Arrow_right.png"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
 <!-- slider end here -->
+
+<!-- features tab start here -->
+<div class="features-wrap container">
+<ul class="nav nav-pills">
+    <li class="active"><a class="family black" data-toggle="pill" href="#home">DESCRIPTION</a></li>
+    <li><a class="family black" data-toggle="pill" href="#menu1">FEATURES</a></li>
+    <li><a class="family black" data-toggle="pill" href="#menu2">DELIVERY & RETURNS</a></li>
+ 
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+    <p class="black"> 
+The iPhone is a smartphone developed description by Apple. The first iPhone was released in June, 2007 and an updated version has been released roughly every year since then. While the iPhone was originally only available to AT&T customers, the iPhone 4 was released on the Verizon network in February, 2010.
+
+The iPhone has a sleek, minimalist design, and differs from other smartphones in its lack of buttons. Most operations on the iPhone are performed using the touch screen display. The only physical buttons include a sleep/wake button, a mute switch, volume up/down buttons, and a home button. All versions of the iPhone have a rear-facing camera, but the iPhone 4 introduced a front-facing camera, which can be used for video calls made using the FaceTime feature. The iPhone 4 also included the first 960 x 640 pixel "retina display," which has double the resolution of previous iPhone displays.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+    <p class="black"> 
+The iPhone is a smartphone developed features by Apple. The first iPhone was released in June, 2007 and an updated version has been released roughly every year since then. While the iPhone was originally only available to AT&T customers, the iPhone 4 was released on the Verizon network in February, 2010.
+
+The iPhone has a sleek, minimalist design, and differs from other smartphones in its lack of buttons. Most operations on the iPhone are performed using the touch screen display. The only physical buttons include a sleep/wake button, a mute switch, volume up/down buttons, and a home button. All versions of the iPhone have a rear-facing camera, but the iPhone 4 introduced a front-facing camera, which can be used for video calls made using the FaceTime feature. The iPhone 4 also included the first 960 x 640 pixel "retina display," which has double the resolution of previous iPhone displays.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+    <p class="black"> 
+The iPhone is a smartphone developed delivery by Apple. The first iPhone was released in June, 2007 and an updated version has been released roughly every year since then. While the iPhone was originally only available to AT&T customers, the iPhone 4 was released on the Verizon network in February, 2010.
+
+The iPhone has a sleek, minimalist design, and differs from other smartphones in its lack of buttons. Most operations on the iPhone are performed using the touch screen display. The only physical buttons include a sleep/wake button, a mute switch, volume up/down buttons, and a home button. All versions of the iPhone have a rear-facing camera, but the iPhone 4 introduced a front-facing camera, which can be used for video calls made using the FaceTime feature. The iPhone 4 also included the first 960 x 640 pixel "retina display," which has double the resolution of previous iPhone displays.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+  </div>
+<!-- features tab end here -->
+
+<!-- other product suggestion start here -->
+<div class="container">
+    <h3 class="black family">Other Product Suggestion</h3>
+    <div class="col-sm-4 suugg-wrap">
+        <img src="img/sugg1.PNG">
+    </div>
+    <div class="col-sm-4 suugg-wrap">
+        <img src="img/sugg2.PNG">
+    </div>
+    <div class="col-sm-4 suugg-wrap">
+        <img src="img/sugg3.PNG">
+    </div>
+</div>
+<br>
+<!-- other product suggestion end here -->
 <?php include_once('common/footer.php'); ?>

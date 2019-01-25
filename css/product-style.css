@@ -52,3 +52,39 @@
     padding: 6px;
     border: 1px solid #ffbb00ba;
 }
+
+#myCarousel {
+    background: #000;
+    padding-top: 20px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    margin-left: 2px;
+    background-image: none;
+}
+
+.carousel-control {
+    width: 15%;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #ffbb00;
+}
+
+.features-wrap {
+    margin-top: 15px;
+}
+
+
+.suugg-wrap {
+    padding: 0;
+    padding-right: 7px;
+}
+
+.suugg-wrap img {
+    width: 100%;
+}
